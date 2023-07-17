@@ -3,7 +3,7 @@ import Logo from "./components/Logo";
 
 function App() {
   return (
-    <div className="relative mx-auto grid min-h-screen w-full  grid-cols-1 text-[hsl(0_36%_70%)] xl:max-w-7xl xl:grid-cols-[1fr_610px] xl:grid-rows-[auto_1fr]  xl:before:absolute xl:before:top-0 xl:before:h-screen xl:before:w-full xl:before:bg-bg-pattern xl:before:bg-no-repeat xl:before:object-cover">
+    <div className="relative mx-auto grid min-h-screen w-full  grid-cols-1 text-[hsl(0_36%_70%)] xl:grid-cols-[1fr_610px] xl:grid-rows-[auto_1fr]  xl:before:absolute xl:before:top-0 xl:before:h-screen xl:before:w-full xl:before:bg-bg-pattern xl:before:bg-no-repeat xl:before:object-cover">
       <div className="z-10 p-10 xl:pl-20 xl:pt-20">
         <Logo />
       </div>
